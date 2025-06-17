@@ -1,12 +1,40 @@
-# React + Vite
+# Meme Generator by Filip 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live demo: [memegeneratorbyfilip.netlify.app](https://memegeneratorbyfilip.netlify.app)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple, web-based Meme Generator that allows users to:
 
-## Expanding the ESLint configuration
+- Choose from preloaded meme templates or upload their own images  
+- Add and position text over the image (top/bottom) 
+- Download or share the final meme creation (in progress)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Built for fast, intuitive meme creation with zero setup—perfect for fun and quick social media content.
+
+---
+
+## Features
+
+- 📁 **Template library** – Include built-in meme images  
+- 🔧 **Text editing** – Customizable captions: position, font, size, color, outline   
+- 💾 **Download/share** – Export final meme as a PNG (in progress)
+
+---
+
+## Technologies
+
+- **Frontend**: HTML5, CSS3, JavaScript, React  
+- **Canvas API**: Render images and overlay text  
+- **File APIs**: Input/upload and client-side download  
+- **Deployment**: Hosted for free on Netlify  
+  *(Replace or add if using React, Vue, etc.)*
+
+---
+
+## Usage
+
+1. Visit the live app  
+2. Choose a template
+3. Enter your text  
+4. Click **"Download Meme"** to save it! (in progress)
